@@ -17,9 +17,14 @@
               <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" id="username" name="username" placeholder="Masukkan username Anda">
+                <h6 id="alert" style="color: red; display: none;">* TOLONG MASUKKAN NAMA ANDA</h6>
               </div>
-              <button type="submit">Submit</button>
+              <button type="submit" onclick="iniAlert()">Submit</button>
             </form>
+          </div>
+
+          <div id="loading" style="display: none;">
+            <div class="loader"></div>
           </div>
     </main>
 

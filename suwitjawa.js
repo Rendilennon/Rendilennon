@@ -137,6 +137,21 @@ do {
     }
 } while (true);
 
+const inputUserKertas = document.querySelector('.userKertas')
+inputUserKertas.addEventListener('click', function() {
+  alert('ini kertas')
+})
+
+const inputUserGunting = document.querySelector('.userGunting')
+inputUserGunting.addEventListener('click', function() {
+  alert('ini gunting')
+})
+
+const inputUserBatu = document.querySelector('.userBatu')
+inputUserBatu.addEventListener('click', function() {
+  alert('ini batu')
+})
+
 
 
 

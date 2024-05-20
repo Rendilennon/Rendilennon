@@ -6,6 +6,7 @@
     <title>MAIN PAGE</title>
 </head>
 <body>
+<link rel="stylesheet" href="main.css">
 
 <header id="judul"></header>
 
@@ -21,10 +22,30 @@
             <h1>KOMPUTER SEDANG MEMILIH....</h1>
         </div>
       </div>
+
+      <div id="hasilPermainan">
+        <h1 id="tampilkanPermainan"></h1>
+      </div>
+
+      <div id="myModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <h2><b>TERIMAKASIH SUDAH BERMAIN</b></h2>
+            <p>APAKAH AKAN DIULANG?</p>
+            <div class="modal-buttons">
+              <!-- jika iya maka ulangi ke halaman pemilihan batu gunting kertasnya -->
+                <button class="modal-button" id="yesButton" onclick="iya()">Iya</button> 
+                <!-- jika tidak maka perlihatkan kata kata "terimakasih suddah bermain" dan dibawahnya ada logo repeat yang akan membawanya ke halaman register username awal -->
+                <button class="modal-button" id="noButton" onclick="tidak()">Tidak</button>
+            </div>
+        </div>
+    </div>
+
+    
 </main>
 
 <footer></footer>
 
 </body>
-<script></script>
+
+<script src="main.js"></script>
 </html>
